@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI',sans-serif;
+    }
+
+    header{
+    padding: 0px 8.5%;
+    background-color: #fcb900;
+    position: sticky;
+    top: 0;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        align-items:center;
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+
+    .logo{
+        width: 130px;
+        height: 50px;
+        border-radius: 70px;    
+    }
+    nav ul{
+        flex: 1;
+        text-align: center;   
+    }
+
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+    }
+    a:hover{
+        color:#333;
+        border-bottom: 2px solid #333 ;
+    }
+    nav .button{
+        background-color: white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #fcb900;
+        font-weight:bold ;
+        text-align: center;
+
+    }
+    nav .button:hover{
+        background-color: #fcb900;
+        color: white;
+        border: 1px solid white;
+    }
+
+
+    .contact-container {
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 30px 25px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-container h2 {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 10px;
+      color:#fcb900;
+      text-decoration: overline;
+      
+    }
+
+    .contact-container p {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    form input[type="submit"] {
+      background-color: #fcb900;
+      color: white;
+      font-weight: bold;
+      border: none;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form input[type="submit"]:hover {
+      background-color:#0f3460;
+    }
+
+    footer {
+      background-color: #fcb900;
+      text-align: center;
+      color: white;
+      padding: 15px;
+      margin-top: 50px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+     <nav>
+            <img src="images/LearnToCode.logo.jpeg" alt="LearnToCode.logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Booking.html">Booking</a></li>
+                <li><a href="Help.html">Help</a></li>
+                <li><a href="About.html">About</a></li>
+            </ul>
+            <a href="#" class="button">Contact Us</a>
+            </nav> 
+       
+ 
+  
+  </header>
+
+  <section class="contact-container">
+    <h2>Get in Touch</h2>
+    <p>Have a question or feedback? Let us know below!</p>
+
+    <form >
+      <label>Your Name:</label>
+      <input type="text"  name="name" placeholder="Enter Your Name" required>
+
+      <label>Your Email:</label>
+      <input type="email"  name="email" placeholder=" Enter Your@mail.com" required>
+
+      <label>Your Message:</label>
+      <textarea  name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 LearnToCode ACADEMY | Contact Page</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+header{
+    padding: 0px 8.5%;
+    background-color: #fcb900;
+    position: sticky;
+    top: 0;
+    
+
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 130px;
+    height: 50px;
+    border-radius: 70px;
+    
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+nav ul li a:hover{
+    color:#333;
+    border-bottom: 2px solid #333 ;
+}
+
+nav .button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+
+    text-decoration: none;
+    color: #fcb900;
+    font-weight:bold ;
+    
+
+}
+
+nav .button:hover{
+    background-color: #fcb900;
+    color: white;
+    border: 1px solid white;
+}
+
+div{
+    text-align: center;
+}
+
+.gallery {
+      text-align: center;
+      padding: 2rem;
+      
+}
+
+.gallery img {
+      width: 250px;
+      height: auto;
+      margin: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+table {
+      margin-top: 2rem;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+
+th, td {
+      padding: 5px;
+      text-align: center;
+      border: 1px solid #ccc;
+}
+
+th{
+    background-color: #0f3460;
+    color: white;
+}
+
+th:hover{
+    background-color: #fcb900;
+    color: red;
+}
+
+tbody tr:hover{
+    background-color:#f4e7e7;
+
+}
+
+td:hover{
+    background-color:rgb(233, 131, 131);
+    color: white;
+
+}
+
+.Externallinks div{
+    text-align: center;
+    margin-top: 10px;
+    
+
+}
+
+.Externallinks  a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(217, 26, 26);
+    text-transform: uppercase;
+   
+    
+}
+
+.Externallinks a:hover{
+    border-bottom: 2px solid #fcb900;
+}
+
+footer{
+    background-color: #fcb900;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}

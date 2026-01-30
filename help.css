@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+header{
+
+    padding: 0px 8.5%;
+    background-color: #fcb900;
+    position: sticky;
+    top: 0;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.logo{
+    width: 130px;
+    height: 50px;
+    border-radius: 70px;
+    
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+    
+    
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+ header nav ul li a:hover{
+    color:#333;
+    border-bottom: 2px solid #333 ;
+}
+ header nav .button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fcb900;
+    font-weight:bold ;
+    
+    
+}
+nav .button:hover{
+    background-color: #fcb900;
+    color: white;
+    border: 1px solid white;
+}
+.div1{
+    color: rgb(190, 129, 129);
+}
+div{
+    text-align: center;
+    font-family:monospace;
+    
+ }
+
+
+footer{
+    background-color: #fcb900;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+.help-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  color: #0f3460;
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.help-section h2 {
+  font-size: 28px;
+  color: #16213e;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.help-section p{
+    text-align:center ;
+}
+.help-section ul li a{
+  text-decoration: none;
+  color:#0f3460;
+}
+.help-section h3 {
+  font-size: 22px;
+  color: #fcb900;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.help-section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style: none;
+  text-align: center;
+  border-left:3px solid #fcb900;
+}
+
+.help-section li {
+  margin-bottom: 10px;
+}
+
+.help-section .note {
+  margin-top: 30px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+  background-color:#16213e;
+  border-radius: 10px;
+}
+
+/* Responsive */
+/* @media (max-width: 768px) {
+  .help-section {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+
+  .help-section h2 {
+    font-size: 24px;
+  }
+
+  .help-section h3 {
+    font-size: 20px;
+  }
+} */

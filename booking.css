@@ -1,0 +1,152 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  padding: 0px 8.5%;
+  background-color: #fcb900;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  width: 130px;
+  height: 50px;
+  border-radius: 70px;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+nav ul li a:hover {
+  color: #333;
+  border-bottom: 2px solid #333;
+}
+
+nav .button {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fcb900;
+  font-weight: bold;
+}
+
+nav .button:hover {
+  background-color: #fcb900;
+  color: white;
+  border: 1px solid white;
+}
+
+div {
+  text-align: center;
+  font-family: monospace;
+  margin: 20px;
+}
+
+footer {
+  background-color: #fcb900;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+}
+
+.booking {
+  max-width: 700px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.booking h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #fcb900;
+  background-color: #0f3460;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+form fieldset {
+  padding: 10px;
+}
+
+form fieldset legend {
+  text-align: center;
+  background-color: #fcb900;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 6px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.gender, input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+form button {
+  background-color: #fcb900;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  display: block;
+  margin: 1rem auto 0 auto;
+}
+
+form button:hover {
+  background-color: #0f3460;
+}

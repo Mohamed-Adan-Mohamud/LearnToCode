@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.header{
+    padding: 0px 8.5%;
+    background-color: #fcb900;
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 130px;
+    height: 50px;
+    border-radius: 70px;    
+}
+nav ul{
+    flex: 1;
+    text-align: center;   
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color:#333;
+    border-bottom: 2px solid #333 ;
+}
+nav .button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fcb900;
+    font-weight:bold ;
+    text-align: center;
+
+}
+nav .button:hover{
+    background-color: #fcb900;
+    color: white;
+    border: 1px solid white;
+}
+
+/* sections */
+.hero {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 3rem 2rem;
+  background-color: #f5f7fa;
+  border-radius: 50px;
+  color: #0f3460;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero .highlight {
+  color: #ffd369;
+  font-family: 'Courier New', monospace;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.lastp {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #16213e;
+}
+
+footer{
+    background-color: #fcb900;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 200px;
+}
